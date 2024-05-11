@@ -1,0 +1,5 @@
+setup.py
+MarketingCampaignClustring.egg-info/PKG-INFO
+MarketingCampaignClustring.egg-info/SOURCES.txt
+MarketingCampaignClustring.egg-info/dependency_links.txt
+MarketingCampaignClustring.egg-info/top_level.txt
