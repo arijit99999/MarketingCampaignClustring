@@ -1,0 +1,15 @@
+22--INFO--2024-05-11 18:47:01,409--data ingestion started
+30--INFO--2024-05-11 18:47:01,424--row data saved 
+32--INFO--2024-05-11 18:47:01,424--split train and test data
+35--INFO--2024-05-11 18:47:01,440--saved train data
+37--INFO--2024-05-11 18:47:01,442--saved test data
+43--INFO--2024-05-11 18:47:01,442--trasnformation initiated
+46--INFO--2024-05-11 18:47:01,456--read test and train data
+54--INFO--2024-05-11 18:47:01,456--transformation has been complited
+17--INFO--2024-05-11 18:47:01,456--pickle dump succesfully
+59--INFO--2024-05-11 18:47:01,456--save preprocessor object
+60--INFO--2024-05-11 18:47:01,456--data tranformation has been complited
+33--INFO--2024-05-11 18:47:01,456--read x_train,x_test,y_train,y_test
+38--INFO--2024-05-11 18:47:01,473--model score is 1.0
+17--INFO--2024-05-11 18:47:01,473--pickle dump succesfully
+42--INFO--2024-05-11 18:47:01,473--model traing has been complited and we have saved the model
