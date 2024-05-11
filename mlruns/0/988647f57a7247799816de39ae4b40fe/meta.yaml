@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/deyar/OneDrive/Desktop/MarketingCampaignClustring/mlruns/0/988647f57a7247799816de39ae4b40fe/artifacts
+end_time: 1715434169435
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 988647f57a7247799816de39ae4b40fe
+run_name: clean-squid-917
+run_uuid: 988647f57a7247799816de39ae4b40fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715434165959
+status: 3
+tags: []
+user_id: deyar

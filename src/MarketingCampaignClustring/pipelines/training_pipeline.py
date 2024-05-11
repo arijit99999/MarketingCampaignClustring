@@ -6,7 +6,7 @@ from src.MarketingCampaignClustring.exception import customexception
 from src.MarketingCampaignClustring.components.data_ingestion import data_ingestion
 from src.MarketingCampaignClustring.components.data_transformation import data_transformation
 from src.MarketingCampaignClustring.components.model_trainer import ModelTrainer
-
+from src.MarketingCampaignClustring.components.model_evaluation import modelevaluation
 
 
 
@@ -18,3 +18,7 @@ train_arr,test_arr=obj2.data_transform_initiated(train_data,test_data)
 
 obj3=ModelTrainer()
 model=obj3.initate_model_training(train_arr,test_arr)
+
+
+obj4=modelevaluation()
+obj4.modelevaluationint(train_arr,test_arr)
