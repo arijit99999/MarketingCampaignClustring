@@ -1,0 +1,9 @@
+97--INFO--2024-05-11 19:33:05,461--[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+97--INFO--2024-05-11 19:33:05,461--[33mPress CTRL+C to quit[0m
+97--INFO--2024-05-11 19:33:13,519--127.0.0.1 - - [11/May/2024 19:33:13] "GET / HTTP/1.1" 200 -
+97--INFO--2024-05-11 19:33:13,567--127.0.0.1 - - [11/May/2024 19:33:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+44--INFO--2024-05-11 19:33:46,979--Dataframe Gathered
+97--INFO--2024-05-11 19:33:47,836--127.0.0.1 - - [11/May/2024 19:33:47] "POST /predict HTTP/1.1" 200 -
+44--INFO--2024-05-11 19:38:25,387--Dataframe Gathered
+97--INFO--2024-05-11 19:38:25,390--127.0.0.1 - - [11/May/2024 19:38:25] "POST /predict HTTP/1.1" 200 -

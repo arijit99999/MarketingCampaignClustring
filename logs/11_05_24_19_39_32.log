@@ -1,0 +1,39 @@
+97--INFO--2024-05-11 19:39:32,792--[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+97--INFO--2024-05-11 19:39:32,792--[33mPress CTRL+C to quit[0m
+838--ERROR--2024-05-11 19:39:37,476--Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\app.py", line 11, in pred_page
+    total_quantity=float(request.form.get('total_quantity')),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+97--INFO--2024-05-11 19:39:37,477--127.0.0.1 - - [11/May/2024 19:39:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+97--INFO--2024-05-11 19:39:41,212--127.0.0.1 - - [11/May/2024 19:39:41] "GET / HTTP/1.1" 200 -
+44--INFO--2024-05-11 19:39:48,633--Dataframe Gathered
+838--ERROR--2024-05-11 19:39:49,428--Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 883, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 902, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 1174, in make_response
+    raise TypeError(
+TypeError: The view function for 'pred_page' did not return a valid response. The function either returned None or ended without a return statement.
+97--INFO--2024-05-11 19:39:49,429--127.0.0.1 - - [11/May/2024 19:39:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -

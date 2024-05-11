@@ -1,0 +1,36 @@
+97--INFO--2024-05-11 19:40:24,552--[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+97--INFO--2024-05-11 19:40:24,552--[33mPress CTRL+C to quit[0m
+44--INFO--2024-05-11 19:40:33,931--Dataframe Gathered
+838--ERROR--2024-05-11 19:40:34,640--Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 883, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 902, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 1174, in make_response
+    raise TypeError(
+TypeError: The view function for 'pred_page' did not return a valid response. The function either returned None or ended without a return statement.
+97--INFO--2024-05-11 19:40:34,640--127.0.0.1 - - [11/May/2024 19:40:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+97--INFO--2024-05-11 19:40:38,195--127.0.0.1 - - [11/May/2024 19:40:38] "GET / HTTP/1.1" 200 -
+44--INFO--2024-05-11 19:40:47,491--Dataframe Gathered
+838--ERROR--2024-05-11 19:40:47,495--Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 883, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 902, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deyar\OneDrive\Desktop\MarketingCampaignClustring\cluster\Lib\site-packages\flask\app.py", line 1174, in make_response
+    raise TypeError(
+TypeError: The view function for 'pred_page' did not return a valid response. The function either returned None or ended without a return statement.
+97--INFO--2024-05-11 19:40:47,496--127.0.0.1 - - [11/May/2024 19:40:47] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
