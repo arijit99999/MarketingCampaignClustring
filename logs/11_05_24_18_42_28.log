@@ -1,0 +1,11 @@
+22--INFO--2024-05-11 18:42:29,283--data ingestion started
+30--INFO--2024-05-11 18:42:29,302--row data saved 
+32--INFO--2024-05-11 18:42:29,302--split train and test data
+35--INFO--2024-05-11 18:42:29,317--saved train data
+37--INFO--2024-05-11 18:42:29,317--saved test data
+43--INFO--2024-05-11 18:42:29,317--trasnformation initiated
+46--INFO--2024-05-11 18:42:29,340--read test and train data
+54--INFO--2024-05-11 18:42:29,349--transformation has been complited
+17--INFO--2024-05-11 18:42:29,353--pickle dump succesfully
+59--INFO--2024-05-11 18:42:29,353--save preprocessor object
+60--INFO--2024-05-11 18:42:29,353--data tranformation has been complited
